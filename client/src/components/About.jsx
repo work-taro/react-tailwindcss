@@ -4,7 +4,7 @@ import { experiences } from "../data/exampleData";
 const CardAbout = ({item}) => {
   console.log({item})
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div className="xs:w-[250px] max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <img 
         style={{width:'100%', height:'200px'}}
