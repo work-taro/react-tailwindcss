@@ -1,6 +1,10 @@
 
 const Hero = () => {
-
+  const listA = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 28 },
+  ];
   return (
     <section className="relative w-full h-screen mx-auto bg-programming">
       <div
@@ -11,7 +15,8 @@ const Hero = () => {
             Hello, I'm <span className="text-[#16c734]">TARO</span>
           </h1>
           <p className="heroSubText mt-2 text-white-100">
-            I'm a Software Developer.<br/>
+            I'm a Software Developer.
+            <br />
           </p>
         </div>
       </div>
